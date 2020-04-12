@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gitte Neven</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+    <link href="css/homepage.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/nav-bar.css" rel="stylesheet" href="">
+
+</head>
+
+<body>
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/arrow.png" alt="UP" width="40px"></button>
+ 
+    <div id="homeimage" class="section">
+    </div>
+    <!-- Start van de section -->
+    <div id="homesection" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a class="naam" href="index.html">GITTE NEVEN</a><br>
+                    <div class="nav-bar">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+
+                        <a class="nav-link current" href="portfolio.html">PORTFOLIO<span class="sr-only">(current)</span></a>
+                        <a class="next-link" href="blind_date.html">Blind Date (2017)</a> <br>
+                        <a class="next-link" href="abcdarium.html">ABCdarium (2017)<span class="sr-only">(current) </span> </a> <br>
+                        <a class="next-link current" href="under_the_skin.html">Under The Skin (2017) </a> <br>
+                        <a class="next-link" href="quote.html">Quote (2018) </a> <br>
+                        <a class="next-link" href="mystery_paper.html">Mystery Paper (2018) </a> <br>
+                        <a class="next-link" href="radio.html">(Radio) (2018)</a> <br>
+                        <a class="next-link" href="conspiracy.html">Conspiracy (2018) </a><br>
+                        <a class="next-link" href="encyclopedia.html">Encyclopedia Vulgaris (2019) </a> <br>
+                        <a class="next-link" href="hacked.html">HACKED! (2019) </a> <br>
+                        <a class="next-link" href="minima_docta.html"> Minima Docta (2019) </a> <br>
+                        <a class="next-link" href="zwiebelfisch.html"> Zwiebelfisch (2019) </a> <br>
+                        <a class="next-link" href="cabinet_of_content.html"> Cabinet of Content (2019-2020) </a> <br>
+                        <a class="next-link" href="about_publications.html"> About Publications (2020) </a> <br>
+                        <a class="next-link" href="font.html"> Lining DeVinne (2019-2020) </a> <br>
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                   <h1>UNDER THE SKIN - 2017</h1>
+                      <h2>315x315x3 mm</h2>
+                    <div class="text">
+                        <p>The vinyl is my take on the soundtrack of the movie Under the Skin by Jonathan Glazer. The movie had a very distinctive style and I wanted to merge this with my style. The soundtrack has very sharp and high pitch sounds, that's why I choose for these stretched letters. I wanted to show this contrast, because the movie also had these high contrasts.</p>
+                        <img src="images/Under_the_skin_front.jpg" alt="Under The Skin front">
+                        <img class="foto" src="images/Under_the_skin_back.jpg" alt="Under the skin back">
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+
+
+    <!-- Start van de footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                All rights reserved © 2020 Gitte Neven
+
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+    <script>//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}</script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+a.naam {
+    font-family: "helvetica", bold;
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 0px;
+    margin-top: 40px;
+    overflow: hidden;
+    display: block;
+    
+    
+}
+.nav-bar div {
+    padding-top: 30px;
+    color: black;
+}
+a.nav-link {
+    text-align: left;
+    margin-left: 0px;
+    font-family: "helvetica", bold;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    
+}
+.text-center{
+    text-align: center;
+}
+.nav-link.current{
+   color: blue;
+}
+.current{
+   color: blue;
+}
+
+a.next-link {
+    text-align: left;
+    margin-left: 30px;
+    font-family: "helvetica";
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+.next-link.current{
+    color: blue;
+}
